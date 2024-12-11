@@ -6,7 +6,7 @@
 
 <button
   on:click={async () => {
-    const result = await fetch("http://localhost:5173/", {
+    const result = await fetch("https://svelte-capacitor-test.onrender.com/", {
       method: "POST",
     });
     const json = await result.json();
